@@ -15,7 +15,7 @@ body {
   font-size: 34px;
   font-weight: 500;
   line-height: 40px;
-  background-color: #303036;
+  background-color: #1c1c1c;
 }
 
 /* Clases */
@@ -36,10 +36,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 1.5rem;
 }
 
 .principal {
-  width: 85%;
+  width: 80%;
   line-height: 24px;
   display: flex;
   justify-content: space-between;
@@ -52,9 +53,16 @@ body {
 }
 
 .principal img {
-  width: 6rem;
-  height: 6rem;
-  background-color: #d1b297;
+  width: 4rem;
+  height: 4rem;
+}
+.fondo_imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 7rem;
+  background-color: rgba(242, 153, 74, 0.2);
   border-radius: 5rem;
 }
 
@@ -64,10 +72,11 @@ body {
 }
 
 .secundario {
-  width: 85%;
+  width: 80%;
+  height: 3rem;
   display: flex;
-  justify-content: space-between;
   color: white;
+  gap: 1.6rem;
 }
 
 .text {
@@ -84,5 +93,15 @@ body {
   align-items: center;
   gap: 0.6rem;
   color: #27ae60;
+  font-size: 1.5rem;
+}
+
+.text_bajo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: fit-content;
+  font-weight: 300;
   font-size: 1.5rem;
 }
